@@ -23,7 +23,7 @@ This project implements a basic Half Adder using Verilog HDL. It serves as a fou
 ---
 
 ## 2. RTL Implementation & Schematic
-Tool: Intel Quartus Prime
+**Tool:** Intel Quartus Prime
 
 The module is described using continuous assignments in Verilog for optimal logic synthesis. Below is the gate-level schematic representing the design:
 
@@ -32,7 +32,7 @@ The module is described using continuous assignments in Verilog for optimal logi
 ---
 
 ## 3. Verification & Simulation
-Tool: GTKwave
+**Tool:** GTKWave
 
 The functional correctness of the design is verified using a Verilog testbench. The verification process employs exhaustive testing to cover all possible input combinations. 
 
@@ -43,8 +43,14 @@ The simulation waveform confirms that the `sum` and `cout` outputs respond corre
 ---
 
 ## 4. Synthesis & Static Timing Analysis (Optional)
-*(Note: Placeholders for Fmax reports or Gate Netlist images can be added here once synthesized via tools like Quartus Prime or Vivado).*
+## 4. Synthesis & Static Timing Analysis (STA)
+**Tool:** Intel Quartus Prime
 
+After successful synthesis, Static Timing Analysis (STA) was performed to evaluate the propagation delay of the combinational logic. 
+
+The Datasheet Report below indicates that the maximum propagation delay (Critical Path) is **7.388 ns**, occurring on the path from input `a` to output `sum` during a Fall-to-Fall (FF) transition.
+
+![STA Datasheet Report](docs/datasheet_report.png)
 ---
 
 ## 5. Conclusion

@@ -55,3 +55,6 @@ After successful synthesis, Static Timing Analysis (STA) was performed to evalua
 According to the Datasheet Report below, the design exhibits a maximum propagation delay (Critical Path) of **7.463 ns**. This maximum delay occurs on the routing path from input `b` to output `cout` during a Fall-to-Fall (FF) signal transition.
 
 ![STA Datasheet Report](docs/datasheet_report.png)
+
+## 5. Conclusion
+The Full Adder module has been successfully implemented using Structural Modeling and thoroughly verified against its theoretical truth table. It serves as a robust core building block and is now ready to be cascaded to construct multi-bit arithmetic circuits, such as an N-bit Ripple Carry Adder.

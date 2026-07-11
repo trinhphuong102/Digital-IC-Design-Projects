@@ -3,7 +3,7 @@ module half_adder ( a , b , sum , cout);
    output reg sum , cout;
  always @(a , b ) 
    begin
-      sum = a ^b;
+      sum = a ^ b;
       cout = a & b;
    end
   

@@ -39,6 +39,8 @@ Below is the synthesized gate-level schematic:
 ---
 
 ## 3. Verification & Simulation
+**Tool:** GTKWave
+
 An exhaustive Verilog testbench was developed to drive all 8 possible input combinations (from `000` to `111`). The simulation waveform verifies that the outputs precisely match the theoretical truth table:
 
 ![Simulation Waveform](docs/waveform.png)

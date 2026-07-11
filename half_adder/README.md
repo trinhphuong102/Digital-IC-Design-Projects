@@ -32,6 +32,8 @@ The module is described using continuous assignments in Verilog for optimal logi
 ---
 
 ## 3. Verification & Simulation
+Tool: GTKwave
+
 The functional correctness of the design is verified using a Verilog testbench. The verification process employs exhaustive testing to cover all possible input combinations. 
 
 The simulation waveform confirms that the `sum` and `cout` outputs respond correctly according to the theoretical truth table:

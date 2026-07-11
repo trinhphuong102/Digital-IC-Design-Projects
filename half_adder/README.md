@@ -23,6 +23,7 @@ This project implements a basic Half Adder using Verilog HDL. It serves as a fou
 ---
 
 ## 2. RTL Implementation & Schematic
+Tool: Intel Quartus Prime
 The module is described using continuous assignments in Verilog for optimal logic synthesis. Below is the gate-level schematic representing the design:
 
 ![Half Adder Schematic](docs/schematic.png)

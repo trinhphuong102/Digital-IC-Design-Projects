@@ -30,7 +30,7 @@ The functional correctness of the design is verified using an automated Verilog 
 
 The simulation waveform confirms that the 32-bit `s` and `c` outputs respond correctly to the inputs according to the mathematical addition model (monitored in Hexadecimal format):
 
-![Simulation Waveform](docs/waveform.png)
+![GTKWave Simulation Result](docs/waveform.png)
 
 ---
 
